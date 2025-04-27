@@ -1,0 +1,1 @@
+What is the difference between AWS Bedrock and Azure Open AI? Please format the response in html.   
