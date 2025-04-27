@@ -105,6 +105,9 @@ def urlParse(
         response = requests.get(url)
         response.raise_for_status()
         page_content = response.text
+        
+        print("Fetched content from URL:")
+        print(page_content[:500])  # Print the first 500 characters of the content
 
         # Combine the page content with the prompt
         combined_prompt = f"Based on the following content from the URL:\n\n{page_content}\n\n{prompt}"
