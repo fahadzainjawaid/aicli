@@ -19,3 +19,8 @@ soupsieve==2.7
 typer==0.15.2
 typing_extensions==4.13.2
 urllib3==2.4.0
+openai
+typer
+typing-inspection==0.4.0
+typing_extensions==4.13.2
+urllib3==2.4.0
